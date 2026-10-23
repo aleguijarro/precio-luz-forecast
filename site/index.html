@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Precio Luz Mañana</title>
+  <meta name="description" content="Precio de la luz (PVPC) hora a hora para hoy, mañana y pasado mañana, con previsión por machine learning.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>⚡</text></svg>">
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <p class="eyebrow">PVPC · Península · €/kWh</p>
+      <h1>¿Cuándo es más barata <em>la luz</em>?</h1>
+      <p class="lede">Precio regulado hora a hora. Cuando Red Eléctrica aún no ha publicado un día, un modelo de machine learning lo predice con su margen de error.</p>
+    </header>
+
+    <nav class="tabs" id="tabs" role="tablist"></nav>
+
+    <section class="day" id="day" aria-live="polite">
+      <div class="day-head">
+        <div>
+          <h2 id="day-title">Cargando…</h2>
+          <p class="source" id="day-source"></p>
+        </div>
+      </div>
+
+      <div class="kpis">
+        <div class="kpi kpi-best">
+          <span class="kpi-label">Mejor franja de 3 h</span>
+          <span class="kpi-value" id="k-window">—</span>
+          <span class="kpi-sub" id="k-window-price"></span>
+        </div>
+        <div class="kpi">
+          <span class="kpi-label">Hora más barata</span>
+          <span class="kpi-value" id="k-min">—</span>
+          <span class="kpi-sub" id="k-min-price"></span>
+        </div>
+        <div class="kpi">
+          <span class="kpi-label">Precio medio</span>
+          <span class="kpi-value" id="k-mean">—</span>
+          <span class="kpi-sub">€/kWh</span>
+        </div>
+        <div class="kpi kpi-worst">
+          <span class="kpi-label">Hora más cara</span>
+          <span class="kpi-value" id="k-max">—</span>
+          <span class="kpi-sub" id="k-max-price"></span>
+        </div>
+      </div>
+
+      <div class="chart-card">
+        <div class="chart-legend">
+          <span><i class="sw sw-cheap"></i>6 horas más baratas</span>
+          <span class="legend-band" id="legend-band"><i class="sw sw-band"></i>Intervalo 80 %</span>
+        </div>
+        <div class="chart" id="chart" role="img" aria-label="Precio por hora"></div>
+        <div class="tooltip" id="tooltip" hidden></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>¿Cómo de fiable es la previsión?</h2>
+      <p class="muted" id="bt-intro"></p>
+      <div class="bt-grid" id="bt-grid"></div>
+      <p class="muted small" id="live"></p>
+    </section>
+
+    <section class="panel">
+      <h2>Últimos 30 días</h2>
+      <p class="muted">Precio medio diario y rango entre la hora más barata y la más cara.</p>
+      <div class="spark" id="spark"></div>
+    </section>
+
+    <footer class="foot">
+      <p><strong>Cómo funciona.</strong> Cada día un GitHub Action descarga los precios de <a href="https://www.ree.es/es/apidatos">apidatos.ree.es</a>, reentrena un gradient boosting (scikit-learn) por horizonte —1, 2 y 3 días— con regresión cuantílica, lo compara con dos referencias ingenuas y publica esta página. Sin servidores.</p>
+      <p class="small muted" id="meta"></p>
+      <p class="small"><a href="https://github.com/aleguijarro/precio-luz-forecast">Código en GitHub</a> · Proyecto de Alejandro Guijarro Santiago. Información orientativa, no es asesoramiento.</p>
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
