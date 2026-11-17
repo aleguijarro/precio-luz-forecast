@@ -1,511 +1,339 @@
 {
- "generated_at": "2026-11-16T16:43+01:00",
- "today": "2026-11-16",
- "last_official_day": "2026-11-16",
+ "generated_at": "2026-11-17T03:58+01:00",
+ "today": "2026-11-17",
+ "last_official_day": "2026-11-17",
  "unit": "€/kWh",
  "days": [
   {
-   "date": "2026-11-16",
+   "date": "2026-11-17",
    "label": "Hoy",
-   "pretty_date": "lunes 16 de noviembre",
+   "pretty_date": "martes 17 de noviembre",
    "is_offday": false,
    "source": "official",
    "horizon_days": null,
    "hours": [
     {
      "hour": 0,
-     "price": 0.1693,
-     "low": 0.1693,
-     "high": 0.1693
+     "price": 0.1676,
+     "low": 0.1676,
+     "high": 0.1676
     },
     {
      "hour": 1,
-     "price": 0.1487,
-     "low": 0.1487,
-     "high": 0.1487
+     "price": 0.1336,
+     "low": 0.1336,
+     "high": 0.1336
     },
     {
      "hour": 2,
-     "price": 0.1096,
-     "low": 0.1096,
-     "high": 0.1096
+     "price": 0.0992,
+     "low": 0.0992,
+     "high": 0.0992
     },
     {
      "hour": 3,
-     "price": 0.1005,
-     "low": 0.1005,
-     "high": 0.1005
+     "price": 0.0761,
+     "low": 0.0761,
+     "high": 0.0761
     },
     {
      "hour": 4,
-     "price": 0.1001,
-     "low": 0.1001,
-     "high": 0.1001
+     "price": 0.0734,
+     "low": 0.0734,
+     "high": 0.0734
     },
     {
      "hour": 5,
-     "price": 0.1394,
-     "low": 0.1394,
-     "high": 0.1394
+     "price": 0.0738,
+     "low": 0.0738,
+     "high": 0.0738
     },
     {
      "hour": 6,
-     "price": 0.1869,
-     "low": 0.1869,
-     "high": 0.1869
+     "price": 0.0974,
+     "low": 0.0974,
+     "high": 0.0974
     },
     {
      "hour": 7,
-     "price": 0.2059,
-     "low": 0.2059,
-     "high": 0.2059
+     "price": 0.1571,
+     "low": 0.1571,
+     "high": 0.1571
     },
     {
      "hour": 8,
-     "price": 0.2525,
-     "low": 0.2525,
-     "high": 0.2525
+     "price": 0.201,
+     "low": 0.201,
+     "high": 0.201
     },
     {
      "hour": 9,
-     "price": 0.2164,
-     "low": 0.2164,
-     "high": 0.2164
+     "price": 0.1886,
+     "low": 0.1886,
+     "high": 0.1886
     },
     {
      "hour": 10,
-     "price": 0.2445,
-     "low": 0.2445,
-     "high": 0.2445
+     "price": 0.2406,
+     "low": 0.2406,
+     "high": 0.2406
     },
     {
      "hour": 11,
-     "price": 0.2141,
-     "low": 0.2141,
-     "high": 0.2141
+     "price": 0.2039,
+     "low": 0.2039,
+     "high": 0.2039
     },
     {
      "hour": 12,
-     "price": 0.1954,
-     "low": 0.1954,
-     "high": 0.1954
+     "price": 0.1993,
+     "low": 0.1993,
+     "high": 0.1993
     },
     {
      "hour": 13,
-     "price": 0.1889,
-     "low": 0.1889,
-     "high": 0.1889
+     "price": 0.1912,
+     "low": 0.1912,
+     "high": 0.1912
     },
     {
      "hour": 14,
-     "price": 0.1204,
-     "low": 0.1204,
-     "high": 0.1204
+     "price": 0.1485,
+     "low": 0.1485,
+     "high": 0.1485
     },
     {
      "hour": 15,
-     "price": 0.1429,
-     "low": 0.1429,
-     "high": 0.1429
+     "price": 0.1658,
+     "low": 0.1658,
+     "high": 0.1658
     },
     {
      "hour": 16,
-     "price": 0.1944,
-     "low": 0.1944,
-     "high": 0.1944
+     "price": 0.1825,
+     "low": 0.1825,
+     "high": 0.1825
     },
     {
      "hour": 17,
-     "price": 0.2573,
-     "low": 0.2573,
-     "high": 0.2573
+     "price": 0.2097,
+     "low": 0.2097,
+     "high": 0.2097
     },
     {
      "hour": 18,
-     "price": 0.3391,
-     "low": 0.3391,
-     "high": 0.3391
+     "price": 0.2749,
+     "low": 0.2749,
+     "high": 0.2749
     },
     {
      "hour": 19,
-     "price": 0.3402,
-     "low": 0.3402,
-     "high": 0.3402
+     "price": 0.2731,
+     "low": 0.2731,
+     "high": 0.2731
     },
     {
      "hour": 20,
-     "price": 0.3436,
-     "low": 0.3436,
-     "high": 0.3436
+     "price": 0.2702,
+     "low": 0.2702,
+     "high": 0.2702
     },
     {
      "hour": 21,
-     "price": 0.3339,
-     "low": 0.3339,
-     "high": 0.3339
+     "price": 0.2731,
+     "low": 0.2731,
+     "high": 0.2731
     },
     {
      "hour": 22,
-     "price": 0.2462,
-     "low": 0.2462,
-     "high": 0.2462
+     "price": 0.1821,
+     "low": 0.1821,
+     "high": 0.1821
     },
     {
      "hour": 23,
-     "price": 0.2199,
-     "low": 0.2199,
-     "high": 0.2199
+     "price": 0.1188,
+     "low": 0.1188,
+     "high": 0.1188
     }
    ],
    "summary": {
-    "mean": 0.2087,
-    "min": 0.1001,
+    "mean": 0.1751,
+    "min": 0.0734,
     "min_hour": 4,
-    "max": 0.3436,
-    "max_hour": 20,
+    "max": 0.2749,
+    "max_hour": 18,
     "cheapest_hours": [
      2,
      3,
      4,
      5,
-     14,
-     15
+     6,
+     23
     ],
-    "best_window_start": 2,
-    "best_window_end": 5,
-    "best_window_mean": 0.1034
+    "best_window_start": 3,
+    "best_window_end": 6,
+    "best_window_mean": 0.0744
    }
   },
   {
-   "date": "2026-11-17",
+   "date": "2026-11-18",
    "label": "Mañana",
-   "pretty_date": "martes 17 de noviembre",
+   "pretty_date": "miércoles 18 de noviembre",
    "is_offday": false,
    "source": "forecast",
    "horizon_days": 1,
    "hours": [
     {
      "hour": 0,
-     "price": 0.1736,
-     "low": 0.144,
-     "high": 0.1999
+     "price": 0.1497,
+     "low": 0.1052,
+     "high": 0.1765
     },
     {
      "hour": 1,
-     "price": 0.1687,
-     "low": 0.1276,
-     "high": 0.1967
+     "price": 0.1347,
+     "low": 0.0989,
+     "high": 0.1666
     },
     {
      "hour": 2,
-     "price": 0.1649,
-     "low": 0.0896,
-     "high": 0.1907
+     "price": 0.1169,
+     "low": 0.0688,
+     "high": 0.1503
     },
     {
      "hour": 3,
-     "price": 0.153,
-     "low": 0.0849,
-     "high": 0.1841
+     "price": 0.1057,
+     "low": 0.053,
+     "high": 0.1387
     },
     {
      "hour": 4,
-     "price": 0.1356,
-     "low": 0.0842,
-     "high": 0.1748
+     "price": 0.1143,
+     "low": 0.0486,
+     "high": 0.1489
     },
     {
      "hour": 5,
-     "price": 0.1579,
-     "low": 0.1214,
-     "high": 0.1899
+     "price": 0.1184,
+     "low": 0.0506,
+     "high": 0.1537
     },
     {
      "hour": 6,
-     "price": 0.1828,
-     "low": 0.1458,
-     "high": 0.2012
+     "price": 0.1223,
+     "low": 0.0687,
+     "high": 0.1683
     },
     {
      "hour": 7,
-     "price": 0.1994,
-     "low": 0.1725,
-     "high": 0.2201
+     "price": 0.1507,
+     "low": 0.1296,
+     "high": 0.1938
     },
     {
      "hour": 8,
-     "price": 0.2414,
-     "low": 0.2071,
-     "high": 0.2644
+     "price": 0.1974,
+     "low": 0.1614,
+     "high": 0.2465
     },
     {
      "hour": 9,
-     "price": 0.2054,
-     "low": 0.1732,
-     "high": 0.2198
+     "price": 0.1881,
+     "low": 0.1607,
+     "high": 0.2395
     },
     {
      "hour": 10,
-     "price": 0.2354,
-     "low": 0.2053,
-     "high": 0.2694
-    },
-    {
-     "hour": 11,
-     "price": 0.2092,
-     "low": 0.1677,
-     "high": 0.2218
-    },
-    {
-     "hour": 12,
-     "price": 0.19,
-     "low": 0.1453,
-     "high": 0.2118
-    },
-    {
-     "hour": 13,
-     "price": 0.1834,
-     "low": 0.1395,
-     "high": 0.2114
-    },
-    {
-     "hour": 14,
-     "price": 0.1374,
-     "low": 0.0862,
-     "high": 0.1787
-    },
-    {
-     "hour": 15,
-     "price": 0.1634,
-     "low": 0.1138,
-     "high": 0.2011
-    },
-    {
-     "hour": 16,
-     "price": 0.1926,
-     "low": 0.1601,
-     "high": 0.2333
-    },
-    {
-     "hour": 17,
      "price": 0.236,
-     "low": 0.2153,
-     "high": 0.2804
-    },
-    {
-     "hour": 18,
-     "price": 0.3157,
-     "low": 0.2896,
-     "high": 0.3567
-    },
-    {
-     "hour": 19,
-     "price": 0.3231,
-     "low": 0.2936,
-     "high": 0.3673
-    },
-    {
-     "hour": 20,
-     "price": 0.3286,
-     "low": 0.294,
-     "high": 0.3775
-    },
-    {
-     "hour": 21,
-     "price": 0.3134,
-     "low": 0.2778,
-     "high": 0.3563
-    },
-    {
-     "hour": 22,
-     "price": 0.2327,
-     "low": 0.2074,
-     "high": 0.2617
-    },
-    {
-     "hour": 23,
-     "price": 0.2126,
-     "low": 0.1808,
-     "high": 0.2546
-    }
-   ],
-   "summary": {
-    "mean": 0.2107,
-    "min": 0.1356,
-    "min_hour": 4,
-    "max": 0.3286,
-    "max_hour": 20,
-    "cheapest_hours": [
-     2,
-     3,
-     4,
-     5,
-     14,
-     15
-    ],
-    "best_window_start": 3,
-    "best_window_end": 6,
-    "best_window_mean": 0.1489
-   }
-  },
-  {
-   "date": "2026-11-18",
-   "label": "Pasado mañana",
-   "pretty_date": "miércoles 18 de noviembre",
-   "is_offday": false,
-   "source": "forecast",
-   "horizon_days": 2,
-   "hours": [
-    {
-     "hour": 0,
-     "price": 0.1842,
-     "low": 0.1257,
-     "high": 0.2219
-    },
-    {
-     "hour": 1,
-     "price": 0.1594,
-     "low": 0.1037,
-     "high": 0.2045
-    },
-    {
-     "hour": 2,
-     "price": 0.1398,
-     "low": 0.072,
-     "high": 0.1926
-    },
-    {
-     "hour": 3,
-     "price": 0.1365,
-     "low": 0.0652,
-     "high": 0.1822
-    },
-    {
-     "hour": 4,
-     "price": 0.1438,
-     "low": 0.0657,
-     "high": 0.1899
-    },
-    {
-     "hour": 5,
-     "price": 0.1559,
-     "low": 0.0887,
-     "high": 0.2023
-    },
-    {
-     "hour": 6,
-     "price": 0.1866,
-     "low": 0.1285,
-     "high": 0.2238
-    },
-    {
-     "hour": 7,
-     "price": 0.2109,
-     "low": 0.1585,
-     "high": 0.2394
-    },
-    {
-     "hour": 8,
-     "price": 0.2516,
-     "low": 0.2057,
-     "high": 0.2843
-    },
-    {
-     "hour": 9,
-     "price": 0.2344,
-     "low": 0.1932,
-     "high": 0.2705
-    },
-    {
-     "hour": 10,
-     "price": 0.276,
-     "low": 0.223,
-     "high": 0.3174
+     "low": 0.2012,
+     "high": 0.2678
     },
     {
      "hour": 11,
-     "price": 0.2426,
-     "low": 0.1942,
-     "high": 0.3085
+     "price": 0.2067,
+     "low": 0.1761,
+     "high": 0.2611
     },
     {
      "hour": 12,
-     "price": 0.2178,
-     "low": 0.1743,
-     "high": 0.3029
+     "price": 0.2037,
+     "low": 0.1749,
+     "high": 0.2605
     },
     {
      "hour": 13,
-     "price": 0.217,
-     "low": 0.1659,
-     "high": 0.2994
+     "price": 0.1979,
+     "low": 0.1716,
+     "high": 0.2602
     },
     {
      "hour": 14,
-     "price": 0.1758,
-     "low": 0.1134,
-     "high": 0.233
+     "price": 0.1369,
+     "low": 0.1242,
+     "high": 0.2128
     },
     {
      "hour": 15,
-     "price": 0.1724,
-     "low": 0.1212,
-     "high": 0.238
+     "price": 0.1676,
+     "low": 0.1325,
+     "high": 0.219
     },
     {
      "hour": 16,
-     "price": 0.2042,
-     "low": 0.1492,
-     "high": 0.2476
+     "price": 0.1768,
+     "low": 0.1397,
+     "high": 0.2305
     },
     {
      "hour": 17,
-     "price": 0.24,
-     "low": 0.1851,
-     "high": 0.2632
+     "price": 0.1994,
+     "low": 0.1547,
+     "high": 0.2341
     },
     {
      "hour": 18,
-     "price": 0.303,
-     "low": 0.2577,
-     "high": 0.3538
+     "price": 0.2593,
+     "low": 0.2262,
+     "high": 0.2865
     },
     {
      "hour": 19,
-     "price": 0.3075,
-     "low": 0.2614,
-     "high": 0.3588
+     "price": 0.2602,
+     "low": 0.2271,
+     "high": 0.2864
     },
     {
      "hour": 20,
-     "price": 0.3136,
-     "low": 0.2694,
-     "high": 0.3659
+     "price": 0.2614,
+     "low": 0.23,
+     "high": 0.2867
     },
     {
      "hour": 21,
-     "price": 0.3084,
-     "low": 0.2668,
-     "high": 0.3556
+     "price": 0.2572,
+     "low": 0.2258,
+     "high": 0.2825
     },
     {
      "hour": 22,
-     "price": 0.2211,
-     "low": 0.1818,
-     "high": 0.2519
+     "price": 0.1742,
+     "low": 0.1405,
+     "high": 0.2054
     },
     {
      "hour": 23,
-     "price": 0.2007,
-     "low": 0.1459,
-     "high": 0.2311
+     "price": 0.1422,
+     "low": 0.0941,
+     "high": 0.1767
     }
    ],
    "summary": {
-    "mean": 0.2168,
-    "min": 0.1365,
+    "mean": 0.1782,
+    "min": 0.1057,
     "min_hour": 3,
-    "max": 0.3136,
+    "max": 0.2614,
     "max_hour": 20,
     "cheapest_hours": [
      1,
@@ -513,21 +341,187 @@
      3,
      4,
      5,
-     15
+     6
     ],
     "best_window_start": 2,
     "best_window_end": 5,
-    "best_window_mean": 0.1401
+    "best_window_mean": 0.1123
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "label": "Pasado mañana",
+   "pretty_date": "jueves 19 de noviembre",
+   "is_offday": false,
+   "source": "forecast",
+   "horizon_days": 2,
+   "hours": [
+    {
+     "hour": 0,
+     "price": 0.1764,
+     "low": 0.1453,
+     "high": 0.221
+    },
+    {
+     "hour": 1,
+     "price": 0.1564,
+     "low": 0.1083,
+     "high": 0.2098
+    },
+    {
+     "hour": 2,
+     "price": 0.1534,
+     "low": 0.0782,
+     "high": 0.1863
+    },
+    {
+     "hour": 3,
+     "price": 0.1479,
+     "low": 0.0627,
+     "high": 0.18
+    },
+    {
+     "hour": 4,
+     "price": 0.1474,
+     "low": 0.062,
+     "high": 0.1814
+    },
+    {
+     "hour": 5,
+     "price": 0.1426,
+     "low": 0.0645,
+     "high": 0.1726
+    },
+    {
+     "hour": 6,
+     "price": 0.1544,
+     "low": 0.0776,
+     "high": 0.1818
+    },
+    {
+     "hour": 7,
+     "price": 0.1734,
+     "low": 0.1256,
+     "high": 0.2045
+    },
+    {
+     "hour": 8,
+     "price": 0.1977,
+     "low": 0.1617,
+     "high": 0.2352
+    },
+    {
+     "hour": 9,
+     "price": 0.1715,
+     "low": 0.1335,
+     "high": 0.2182
+    },
+    {
+     "hour": 10,
+     "price": 0.197,
+     "low": 0.1228,
+     "high": 0.2382
+    },
+    {
+     "hour": 11,
+     "price": 0.1752,
+     "low": 0.1158,
+     "high": 0.2149
+    },
+    {
+     "hour": 12,
+     "price": 0.1744,
+     "low": 0.104,
+     "high": 0.2154
+    },
+    {
+     "hour": 13,
+     "price": 0.1726,
+     "low": 0.0965,
+     "high": 0.2078
+    },
+    {
+     "hour": 14,
+     "price": 0.13,
+     "low": 0.0565,
+     "high": 0.1785
+    },
+    {
+     "hour": 15,
+     "price": 0.1398,
+     "low": 0.0588,
+     "high": 0.1937
+    },
+    {
+     "hour": 16,
+     "price": 0.1634,
+     "low": 0.104,
+     "high": 0.2064
+    },
+    {
+     "hour": 17,
+     "price": 0.2029,
+     "low": 0.1763,
+     "high": 0.2483
+    },
+    {
+     "hour": 18,
+     "price": 0.2785,
+     "low": 0.2408,
+     "high": 0.3203
+    },
+    {
+     "hour": 19,
+     "price": 0.2825,
+     "low": 0.2448,
+     "high": 0.3259
+    },
+    {
+     "hour": 20,
+     "price": 0.2894,
+     "low": 0.2473,
+     "high": 0.3287
+    },
+    {
+     "hour": 21,
+     "price": 0.278,
+     "low": 0.2474,
+     "high": 0.3263
+    },
+    {
+     "hour": 22,
+     "price": 0.2042,
+     "low": 0.1711,
+     "high": 0.2607
+    },
+    {
+     "hour": 23,
+     "price": 0.1778,
+     "low": 0.1423,
+     "high": 0.2362
+    }
+   ],
+   "summary": {
+    "mean": 0.187,
+    "min": 0.13,
+    "min_hour": 14,
+    "max": 0.2894,
+    "max_hour": 20,
+    "cheapest_hours": [
+     2,
+     3,
+     4,
+     5,
+     14,
+     15
+    ],
+    "best_window_start": 14,
+    "best_window_end": 17,
+    "best_window_mean": 0.1444
    }
   }
  ],
  "recent_daily": [
-  {
-   "date": "2026-10-18",
-   "mean": 0.1397,
-   "min": 0.0468,
-   "max": 0.259
-  },
   {
    "date": "2026-10-19",
    "mean": 0.2274,
@@ -701,44 +695,50 @@
    "mean": 0.2087,
    "min": 0.1001,
    "max": 0.3436
+  },
+  {
+   "date": "2026-11-17",
+   "mean": 0.1751,
+   "min": 0.0734,
+   "max": 0.2749
   }
  ],
  "backtest": {
   "1": {
    "test_days": 60,
-   "mae_model": 0.0326,
-   "mae_persistence": 0.0429,
-   "mae_weekly": 0.0435,
-   "skill": 0.24,
-   "coverage_80": 0.698
+   "mae_model": 0.0327,
+   "mae_persistence": 0.0431,
+   "mae_weekly": 0.0438,
+   "skill": 0.241,
+   "coverage_80": 0.694
   },
   "2": {
    "test_days": 60,
-   "mae_model": 0.0348,
-   "mae_persistence": 0.0535,
-   "mae_weekly": 0.0435,
-   "skill": 0.2,
-   "coverage_80": 0.733
+   "mae_model": 0.0341,
+   "mae_persistence": 0.0542,
+   "mae_weekly": 0.0438,
+   "skill": 0.221,
+   "coverage_80": 0.728
   },
   "3": {
    "test_days": 60,
-   "mae_model": 0.0376,
-   "mae_persistence": 0.0572,
-   "mae_weekly": 0.0435,
-   "skill": 0.134,
-   "coverage_80": 0.668
+   "mae_model": 0.0379,
+   "mae_persistence": 0.058,
+   "mae_weekly": 0.0438,
+   "skill": 0.135,
+   "coverage_80": 0.657
   }
  },
  "live": {
   "1": {
-   "days": 24,
-   "mae": 0.0322
+   "days": 25,
+   "mae": 0.0325
   },
   "2": {
-   "days": 23,
-   "mae": 0.0367
+   "days": 24,
+   "mae": 0.0368
   }
  },
- "training_days": 1781,
+ "training_days": 1782,
  "first_day": "2022-01-01"
 }
